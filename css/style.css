@@ -1,0 +1,620 @@
+body{
+	font-size: 12px;
+  color: #8e8e8e;
+}
+main{
+	margin: 70px 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+  margin: 0;
+}
+a:hover{
+  text-decoration: none;
+  color: #be00c8;
+}
+button{
+	outline: none !important;
+}
+.fontSofia{
+  font-family: "Sofia", sans-serif;
+  font-weight: 800;
+  font-size: 32px !important;
+  color: #000;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	background-color: #eee;
+	margin: 40px 0;
+}
+.padding-margin-none{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.padding-col-changed{
+	padding: 0 5px !important;
+}
+.margin-top-col{
+	margin-top: 5px;
+}
+.actv{
+	color: #be00c8 !important;
+}
+/*----------------------------------------------START ------------- HOME ------------ HTML -------------------------------*/
+/* -----------START HEADER-------------- */
+/* ---START TOP NAVBAR---- */
+.topNavBC{
+  background-color: #333333;
+}
+.topNav{
+  display: flex;
+  justify-content: space-between;
+}
+.topNavBox1{
+  display: flex;
+  justify-content: space-between;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+.topNavBox1{
+  display: flex;
+  align-items: center;
+}
+.drpCurrency{
+  background: none;
+  color: #8e8e8e;
+  border: none;
+  outline: none !important;
+  padding: 1px 0 0 0;
+}
+.topNavBtn{
+  display: flex;
+  grid-column-gap: 5px;
+}
+.btnTopNvbr{
+  cursor: pointer;
+  width: 50px;
+  background: none;
+  color: #8e8e8e;
+  border: none;
+}
+.shopBtn{
+  background-color: #be00c8;
+  color: #fff;
+  padding: 7px 15px;
+}
+.shopBtn a{
+  cursor: pointer;
+  padding-left: 10px;
+  width: 60px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+/* ---STOP TOP NAVBAR---- */
+
+/* ---START NAVBAR---- */
+.backgroundPhoto{
+  background-image: url("../images/bck.png");
+  background-position: center;
+  background-size: cover;
+  height: 80vmin;
+  width: 100%;
+}
+.drpChangeNvbr{
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+.searchBox{
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 3px 0;
+}
+.inputSearch{
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 15px;
+  padding: 0 0 0 15px;
+}
+.inputSearch::placeholder{
+  color: #000;
+}
+.btnToggle{
+	outline: none !important;
+}
+.dropdown-menu{
+	border: none !important;
+}
+/* ---STOP NAVBAR---- */
+/* -----------STOP HEADER-------------- */
+/*-------------------------------------------------------------*/
+
+
+
+/* -----------START MAIN-------------- */
+
+/* ---START SHOP-CARDS---- */
+.nav-link{
+	font-size: 15px;
+}
+.boxShop{	
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.boxShopImg img{
+	width: 100%;
+	height: 100%;	
+	object-fit: cover !important;	
+}
+.infoShopBox{	
+	display: none;
+	background-color: #f8f8f8;
+	position: absolute !important;
+	z-index: 999;
+	text-align: center;
+	padding: 10px 5px 5px 5px;
+	width: 100%;	
+}
+.headerShopTxt{
+	font-size: 14px;
+}
+.infoTxt{
+	font-size: 11px;
+}
+.shopIconsBox{
+	margin-top: 10px;
+	display: flex;
+	grid-column-gap: 10px;
+	justify-content: center;	
+}
+.shopIcon{
+	background-color: #727272;
+	width: 30px;
+	height: 30px;	
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.shopIcon:hover{
+	background-color: #be00c8;
+	transition: 0.3s;
+	color: #fff;
+}
+.boxShop:hover{
+	-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+}
+.boxShop:hover .infoShopBox{
+	display: block;
+	margin-top: -1px;
+	-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);	
+}
+/* ---STOP SHOP-CARDS---- */
+
+/* ---START LOOKBOOK---- */
+.lookbookBox{
+	position: relative;
+}
+.lookbookTxtBox{
+	position: absolute;
+	top: 50%;
+  	transform: translate(0, -50%);
+	right: 0;	
+	text-align: right;
+}
+.headTxtLB{
+	color: #575153;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin: 0;
+}
+.lookbookTxt{
+	color: #575153;
+	letter-spacing: 3px;
+}
+.lbPtxt{
+	color: #575153;
+	width: 15vmax;
+}
+.viewBtn{
+	border: 1px solid #575153;
+	background: none;
+	font-size: 15px;
+	color: #575153;
+	width: 130px;
+	height: 30px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.viewBtn:hover{
+	background-color: #be00c8;
+	border: 1px solid #be00c8;
+	color: #fff;
+}
+/* ---STOP LOOKBOOK---- */
+/* -----------STOP MAIN-------------- */
+
+
+
+/* -----------START MAIN-------------- */
+.footerBack{
+	background-color: #f8f8f8;
+	padding: 80px 0 0 0;
+}
+.footerListHeadTxt{
+	color: #575153;
+	font-size: 16px;
+}
+.dsgn-and-scl{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+.dsgnTxt{
+	text-transform: uppercase;
+	font-family: "Hachi Maru Pop";
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 3px;
+	color: #fff;
+}
+.dsgnTxt:last-child{
+	font-weight: 800;
+}
+.socialBox{
+	display: flex;
+	grid-column-gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.socialBox li a i{
+	font-size: 30px;
+	color: #fff;
+}
+.footerBottom{
+	background-color: #333333;
+	margin: 80px 0 0 0;
+	padding: 10px;
+}
+.bottomftrTxt{
+	color: #fff;
+}
+/* -----------STOP MAIN-------------- */
+
+/*----------------------------------------------STOP ------------- HOME ------------ HTML -------------------------------*/
+
+/*----------------------------------------------START ------------- THE BRAND ------------ HTML -------------------------------*/
+/* -----------START INTRO-------------- */
+.introImg{
+	background-image: url("../images/topbackimg.png");
+  	background-position: center;
+  	background-size: cover;
+  	height: 40vmin;
+  	width: 100%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	position: relative;
+}
+.rgbGrey{
+	position: absolute;	
+	background-color:rgba(51,51,51,0.9);
+	width: 100%;
+	height: 100%;
+}
+.introTxt{
+	z-index: 100;
+	font-weight: 800;
+	color: #fff;
+	font-size: 35px;
+	letter-spacing: 3px;
+}
+.introTxt span{
+	font-weight: 600;
+}
+/* -----------STOP INTRO-------------- */
+.imgBox img{
+	width: 100% !important;
+	height: 100%;	
+}
+.txtBox h4{
+	text-transform: uppercase;
+	color: #575153;
+	font-size: 20px;
+}
+.txtBox h6{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #727272;
+}
+.brandBox{
+	display: flex;
+	grid-column-gap: 20px;
+}
+.brandBox li img{
+	width: 100%;
+}
+/*----------------------------------------------STOP ------------- THE BRAND ------------ HTML -------------------------------*/
+
+
+
+
+/*----------------------------------------------START ------------- LOCAL STORES ------------ HTML -------------------------------*/
+.locationBox h4{
+	font-size: 20px;
+	color: #575153;
+}
+.locationBox h6{
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #727272;
+}
+.locationBox button{
+	border: 1px solid #575153;
+	background: none;
+	width: 150px;
+	height: 35px;
+	color: #575153;
+	font-weight: 600;
+}
+.locationBox button:hover{
+	color: #fff;
+	background-color: #be00c8;
+	border: 1px solid #be00c8;
+}
+.mapouter{
+	position:relative;
+	text-align:right;
+	width: 100%;
+	height: 100%;
+}
+#gmap_canvas{
+	width: 100%;
+	height: 50vmin;
+	overflow:hidden;
+	background:none !important;
+}
+.locationMapBox{
+	padding: 20px 40px;
+}
+.locationMapBox h4{
+	font-size: 20px;
+	color: #575153;
+}
+.locationMapBox h6{
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #727272;
+}
+.detailsBox{
+	margin: 20px 0;
+	line-height: 25px;
+}
+.detailsBox li{
+	display: flex;
+	align-items: center;
+	grid-column-gap: 5px;	
+}
+.detailsBox li i{ 
+	font-size: 15px;
+}
+.socialBoxLS{
+	display: flex;
+	grid-column-gap: 10px;	
+}
+.socialBoxLS li a{
+	color: #fff;
+	background-color: #727272;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.socialBoxLS li a:hover{
+	background-color: #000;
+}
+/*----------------------------------------------STOP ------------- LOCAL STORES ------------ HTML -------------------------------*/
+
+/*----------------------------------------------START ------------- REGISTER ------------ HTML -------------------------------*/
+.inputBox{
+	border: 1px solid #eee;
+	width: 100%;
+	height: 30px;
+	padding: 0 0 0 10px;
+}
+.registerBtn{
+	border: 1px solid #727272;
+	background: none;
+	width: 150px;
+	height: 30px;
+	color: #727272;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.registerBtn:hover{
+	background-color: #be00c8;
+	border: 1px solid #be00c8;
+	color: #fff;
+}
+/*----------------------------------------------STOP ------------- REGISTER ------------ HTML -------------------------------*/
+
+
+
+/*----------------------------------------------START ------------- LOOKBOOK ------------ HTML -------------------------------*/
+.lookbookImgBox{
+	position: relative;
+}
+.lookbookImgBox img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.LBtxtBox{
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 0 20px;
+	width: 25vmin;
+}
+.LBtxtBox h4{
+	color: #575153;
+	font-weight: 700;
+	font-size: 17px;	
+}
+.LBtxtBox h4 span{
+	font-weight: 600;
+}
+.LBtxtBox h6{
+	color: #8e8e8e;
+	font-size: 12px;
+}
+.LBtxtBox p{
+	color: #8e8e8e;
+	font-size: 10px;
+}
+/*----------------------------------------------STOP ------------- LOOKBOOK ------------ HTML -------------------------------*/
+
+.productInfoBox h4{
+	font-size: 20px;
+	color: #575153;
+}
+.ratingBox{
+	display: flex;
+	align-items: center;
+	grid-column-gap: 5px;
+}
+.rating{
+	display: flex;
+	grid-column-gap: 2px;
+}
+.activeStar{
+	color: #ded3aa;
+}
+.verticalLine{
+	background-color: #eee;
+	height: 25px;
+	width: 2px;
+}
+.shareBox{
+	display: flex;
+	grid-column-gap: 10px;
+}
+.shareScl{
+	display: flex;
+	grid-column-gap: 10px;	
+}
+.priceBox{
+	display: flex;
+	grid-column-gap: 10px;
+	margin: 20px 0;
+} 
+.priceBox h3:first-child{
+	text-decoration: line-through;
+}
+.infPrdct li{
+	display: flex;
+	grid-column-gap: 10px;
+	align-items: center;
+	line-height: 25px;	
+}
+.infPrdct li h6{
+	margin: 0;
+	color: #575153;
+	font-size: 14px;
+	align-items: center;
+}
+.secondBox{
+	margin: 30px 0;
+}
+.material{
+	line-height: 20px;
+	color: #727272;
+}
+.material li{
+	display: flex;
+	align-items: center;
+	grid-column-gap: 10px;
+}
+.circle{
+	width: 5px;
+	height: 5px;
+	background-color: #727272;
+	border-radius: 50%;
+}
+.selectBox{
+	display: flex;
+	grid-column-gap: 10px;
+	margin: 20px 0;
+}
+.selectBox div button{
+	border: 1px solid #727272;
+	background: none;
+	color: #727272;
+	height: 30px;
+}
+.thirdBox button{
+	border: 1px solid #333333;
+	background: none;
+	color: #333333;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 10px 20px;
+	align-items: center;
+	text-transform: uppercase;
+	letter-spacing: 2xp;
+}
+.thirdBox button:hover{
+	background-color: #333333;
+	color: #fff;
+}
+.compareBox{
+	display: flex;
+	align-items: center;
+	grid-column-gap: 10px;
+	margin: 20px 0;
+	cursor: pointer;
+}
+.compareBox div{
+	background-color: #727272;
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	font-size: 14px;	
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.compareBox span{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.navPillsProducts{
+	margin: 30px 0;
+	background-color: #f8f8f8;
+	color: #333333;
+	width: 100%;
+	height: 38px;
+	display: flex;
+	align-items: center;
+}
+.nav-link-prd{
+	padding: 10px 20px;
+}
+.nav-link-prd:hover{
+	background-color: #333333 !important;
+	color: #fff;
+}

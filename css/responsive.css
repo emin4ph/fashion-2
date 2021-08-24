@@ -1,0 +1,156 @@
+@media only screen and (min-width: 1026px) {
+	.searchBox{
+		margin-left: 40px;
+	}	
+	.headTxtLB{
+		font-size: 30px !important;
+	}
+	.lookbookTxt{
+		font-size: 30px !important;
+	}
+	.viewBtn{
+		width: 150px;
+		height: 40px;
+	}
+	.lbPtxt{
+		font-size: 14px !important;
+	}
+	.col-lg-auto{
+		margin: 0 20px !important;
+	}
+	.dsgn-and-scl{
+		width: 40vmin;
+	}
+	/*-------START LOOKBOOK------*/
+	.mTOP{
+		margin-top: 5px !important;
+	}
+	.LBtxtBox h4{
+		font-size: 22px;
+	}
+	/*-------STOP LOOKBOOK------*/	
+}
+@media only screen and (min-width: 991px){
+	.navbarColps{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.margin-top-col{
+		margin-top: 10px !important;
+	}
+	.change-col-size{
+		height: 350px !important;
+	}
+	.grid-item{
+		max-width: 100%;
+		width: 50%;
+	}
+	.lookbookTxtBox{
+		margin-right: 20px;
+	}
+	.lookbookTxt{
+		font-size: 25px;
+	}
+	.lbPtxt{
+		font-size: 10px;
+	}
+	.col-lg-auto{
+		margin: 0 10px;
+	}
+	.endFloatDesk{
+		float: right;
+	}
+	/*-----THE BRAND -- START ------*/
+	.grid-brand{
+		width: 100%;
+		height: 30vmin;	
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+	}
+	/*-----THE BRAND -- STOP ------*/
+
+	/*-------LOOKBOOK - START--------*/
+	.ggg{
+		display: grid;
+		grid: auto / 75.2% 25%;
+	}
+	.padding-left{
+		padding-left: 5px !important;	
+	}
+	.padding-right{
+		padding-right: 5px !important;
+	}
+	.mTOP{
+		margin-top: 3px;
+	}
+	.gridLB{
+		padding: 5px;
+	}
+	/*--------LOOKBOOK STOP--------*/
+	.thirdBox{
+		display: flex;
+		grid-column-gap: 10px;
+	}
+	.firstBox{
+		display: flex;
+		grid-column-gap: 15px;
+		align-items: center;	
+	}
+}
+@media only screen and (max-width: 991px){
+	.navbarColps{
+		background-color: #fff !important;
+	}
+	.card-columns {
+    	column-count: 1;
+	}
+	.margin-col-mobile{
+		margin-bottom: 20px !important;
+	}
+	.grid-item{
+		width: 100%;
+	}
+	.lookbookTxtBox{
+		margin-right: 10px;
+	}
+	.lookbookTxt{
+		font-size: 20px;
+	}
+	.lbPtxt{
+		width: 20vmax;
+	}
+	.dsgnTxt{
+		font-size: 15px;
+	}
+	.endFloatDesk{
+		float: right;
+	}
+	/*-----THE BRAND -- START ------*/
+	.txtBox{
+		margin: 10px 0;
+	}
+	/*-----THE BRAND -- STOP ------*/
+	.thirdBox button:first-child{			
+		margin-bottom: 10px;
+	}
+	.firstBox{
+		display: grid;
+		grid: 35px auto / auto auto auto;	
+		align-items: center;
+	}
+	
+}
+@media only screen and (max-width: 767px){
+	.navPillsProducts{
+		height: 100px;
+	}
+}
+@media only screen and (max-width: 575px){
+	.endFloatDesk{
+		float: left;
+	}
+	.introTxt{
+		font-size: 30px;
+	}
+}
